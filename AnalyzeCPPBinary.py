@@ -1,3 +1,6 @@
+# Assumes Ghidra Headless mode
+# Run with: /opt/ghidra/support/analyzeHeadless /home/user/ghidra-project myProject -import /home/user/program.exe -postScript /home/user/infer_schema.py
+
 import re
 from ghidra.program.model.listing import CodeUnit
 from ghidra.program.model.symbol import SymbolType
